@@ -1,0 +1,219 @@
+html {
+    background-color: gray;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    top: 0;
+}
+
+.bottomnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.bottomnav p {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.topnav a:hover {
+    background-color: rgb(175, 175, 175);
+    transition: all .5s;
+    color: black;
+}
+
+#title {
+    color: white;
+    position: relative;
+    bottom: 0.35em;
+    cursor: pointer;
+}
+
+#nixon {
+    background-color: rgb(165, 74, 74);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#mc {
+    background-color: rgb(74, 83, 163);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#mc:hover {
+    background-color: rgb(65, 73, 143);
+}
+
+#mcok {
+    background-color: rgb(74, 83, 163);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#schmitz {
+    background-color: rgb(127, 76, 168);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#schmitzz {
+    background-color: rgb(127, 76, 168);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#maddox {
+    background-color: rgb(127, 76, 168);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#maddoxx {
+    background-color: rgb(127, 76, 168); 
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+#wallace {
+    background-color: rgb(127, 76, 168);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#wallacew {
+    background-color: rgb(127, 76, 168);
+    border-radius: 25px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#center {
+    text-align: center;
+    font-size: 17px;
+}
+
+#field {
+    text-align: center;
+}
+
+#ball {
+    position: absolute;
+    left: 300;
+    top: 200;
+    z-index: 100;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
